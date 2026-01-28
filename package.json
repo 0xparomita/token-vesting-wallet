@@ -1,0 +1,15 @@
+{
+  "name": "token-vesting-wallet",
+  "version": "1.0.0",
+  "description": "Linear vesting contract for ERC20 tokens",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "hardhat": "^2.19.0",
+    "ethers": "^6.8.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
